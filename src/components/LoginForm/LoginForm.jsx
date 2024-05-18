@@ -2,7 +2,7 @@ import { Field, Form, Formik } from 'formik';
 import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
 import css from './LoginForm.module.css';
-import { logIn } from '../../redux/auth/authOps';
+import { logIn } from '../../redux/auth/operations';
 
 export default function LoginForm() {
   const dispatch = useDispatch();

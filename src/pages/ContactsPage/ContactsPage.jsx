@@ -5,12 +5,9 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import Loader from '../../components/Loader/Loader';
 import Error from '../../components/Error/Error';
 import css from './ContactsPage.module.css';
-import {
-  selectError,
-  selectLoading,
-} from '../../redux/contacts/contactsSelectors';
+import { selectError, selectLoading } from '../../redux/contacts/selectors';
 import { useEffect } from 'react';
-import { fetchContacts } from '../../redux/contacts/contactsOps';
+import { fetchContacts } from '../../redux/contacts/operations';
 
 export default function ContactsPage() {
   const isLoading = useSelector(selectLoading);
