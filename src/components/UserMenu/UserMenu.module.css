@@ -1,0 +1,16 @@
+.btn {
+  margin-left: 20px;
+}
+.userText {
+  margin: 0;
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #646cff;
+}
+
+.navAuthContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

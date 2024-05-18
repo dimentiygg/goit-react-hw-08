@@ -1,0 +1,15 @@
+.link {
+  font-size: 20px;
+}
+
+.activeLink {
+  color: blueviolet;
+}
+
+.authNavList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+}

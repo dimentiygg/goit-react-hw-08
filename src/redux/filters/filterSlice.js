@@ -1,10 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { initialState } from "./constants";
-
-export const selectNameFilter = (state) => state.filters.name;
+import { createSlice } from '@reduxjs/toolkit';
+import { initialState } from '../constants';
 
 const slice = createSlice({
-  name: "filters",
+  name: 'filters',
   initialState: initialState.filters,
   reducers: {
     changeFilter: (state, action) => {
